@@ -14,9 +14,9 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="colors.vi" Type="VI" URL="../styles/colors.vi"/>
 		<Item Name="GUI.vi" Type="VI" URL="../GUI.vi"/>
-		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="settings handler.vi" Type="VI" URL="../settings handler.vi"/>
 		<Item Name="settings tester.vi" Type="VI" URL="../settings/settings tester.vi"/>
+		<Item Name="UI Data.ctl" Type="VI" URL="../UI Data.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
