@@ -33,6 +33,7 @@
 			<Item Name="settings tester.vi" Type="VI" URL="../settings/settings tester.vi"/>
 		</Item>
 		<Item Name="GUI.vi" Type="VI" URL="../GUI.vi"/>
+		<Item Name="newGUI.vi" Type="VI" URL="../newGUI.vi"/>
 		<Item Name="Progress bar v2.vi" Type="VI" URL="../support/Progress bar v2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
