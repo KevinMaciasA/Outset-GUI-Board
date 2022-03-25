@@ -12,21 +12,28 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="controls" Type="Folder">
+			<Item Name="Data.ctl" Type="VI" URL="../Data.ctl"/>
+			<Item Name="Progress bar.ctl" Type="VI" URL="../support/Progress bar.ctl"/>
+			<Item Name="UI Data.ctl" Type="VI" URL="../UI Data.ctl"/>
+		</Item>
+		<Item Name="globals" Type="Folder">
+			<Item Name="colors.vi" Type="VI" URL="../styles/colors.vi"/>
+		</Item>
+		<Item Name="support" Type="Folder">
+			<Item Name="button painter (SubVI).vi" Type="VI" URL="../button painter (SubVI).vi"/>
+			<Item Name="Progess bar.vi" Type="VI" URL="../support/Progess bar.vi"/>
+			<Item Name="settings handler.vi" Type="VI" URL="../settings handler.vi"/>
+			<Item Name="word finder.vi" Type="VI" URL="../support/word finder.vi"/>
+			<Item Name="words finder.vi" Type="VI" URL="../support/words finder.vi"/>
+		</Item>
 		<Item Name="testers" Type="Folder">
 			<Item Name="cmd tester.vi" Type="VI" URL="../support/cmd tester.vi"/>
 			<Item Name="COM emulator.vi" Type="VI" URL="../support/COM emulator.vi"/>
 			<Item Name="settings tester.vi" Type="VI" URL="../settings/settings tester.vi"/>
 		</Item>
-		<Item Name="button painter (SubVI).vi" Type="VI" URL="../button painter (SubVI).vi"/>
-		<Item Name="colors.vi" Type="VI" URL="../styles/colors.vi"/>
-		<Item Name="Data.ctl" Type="VI" URL="../Data.ctl"/>
 		<Item Name="GUI.vi" Type="VI" URL="../GUI.vi"/>
-		<Item Name="Progess bar.vi" Type="VI" URL="../support/Progess bar.vi"/>
-		<Item Name="Progress bar.ctl" Type="VI" URL="../support/Progress bar.ctl"/>
-		<Item Name="settings handler.vi" Type="VI" URL="../settings handler.vi"/>
-		<Item Name="UI Data.ctl" Type="VI" URL="../UI Data.ctl"/>
-		<Item Name="word finder.vi" Type="VI" URL="../support/word finder.vi"/>
-		<Item Name="words finder.vi" Type="VI" URL="../support/words finder.vi"/>
+		<Item Name="Progress bar v2.vi" Type="VI" URL="../support/Progress bar v2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -165,6 +172,7 @@
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
