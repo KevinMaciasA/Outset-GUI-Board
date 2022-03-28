@@ -35,6 +35,7 @@
 		<Item Name="GUI.vi" Type="VI" URL="../GUI.vi"/>
 		<Item Name="newGUI.vi" Type="VI" URL="../newGUI.vi"/>
 		<Item Name="Progress bar v2.vi" Type="VI" URL="../support/Progress bar v2.vi"/>
+		<Item Name="update media race condition test.vi" Type="VI" URL="../outset-medical/update media race condition test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
