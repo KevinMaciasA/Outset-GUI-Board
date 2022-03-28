@@ -10,15 +10,15 @@ MEDIA_MANIFEST_NAME = "MediaVersion.txt"
 
 def do_gui_media_update():
     sys.excepthook = handle_exception
-    ensure_temp_dir() #Done
-    ensure_adb_connected() #Done
-    version, url = get_media_required() #Done
+    ensure_temp_dir() 
+    ensure_adb_connected() 
+    version, url = get_media_required() 
     check_media_already_installed(version)
     download_media(version, url)
     install_media(version)
     print('All done!')
 
-#done
+
 def get_media_required():
     print('Getting media requirements...')
     filename = pull_current_gui_apk()
@@ -32,13 +32,11 @@ def get_media_required():
     print('Media: version=%d, URL=%s' % (version, url))
     return version, url
 
-#DONE
 def ensure_temp_dir():
     if not os.path.isdir(LOCAL_TEMP_DIR):
         print('Creating: %s' % LOCAL_TEMP_DIR)
         os.makedirs(LOCAL_TEMP_DIR)
 
-#done
 def ensure_adb_connected():
     print('Connecting to GUI board...')
     hit_device = False
@@ -77,7 +75,6 @@ def pull_current_gui_apk():
     adb('pull %s %s' % (apk_name, output_filename))
     return output_filename
 
-#clean
 def extract_gui_media_csv(filename):
     zip = zipfile.ZipFile(filename)
     f = zip.open('res/raw/guimedia.csv')
@@ -85,7 +82,6 @@ def extract_gui_media_csv(filename):
     f.close()
     return contents
 
-#done
 def download_media(version, url):
     #version = 8
     target_name = GUI_MEDIA_LOCAL_DIR + os.sep + str(version) + '.zip'
@@ -132,7 +128,6 @@ def download_media(version, url):
     os.rename(TEMP_MEDIA_NAME, target_name)
     return 0, 'Ok'
 
-#Done:
 def check_media_already_installed(version):
     manifest_name = '/sdcard/media/%d/%s' % (version, MEDIA_MANIFEST_NAME)
     contents = adb('shell ls %s' % manifest_name, accept_error_one=True)
@@ -144,7 +139,6 @@ def check_media_already_installed(version):
             return 1
     return 0
 
-#clean
 def install_media(version):
     target_name = GUI_MEDIA_LOCAL_DIR + os.sep + str(version) + '.zip'
     adb('shell rm -r -f /sdcard/media')            
@@ -153,7 +147,6 @@ def install_media(version):
     push_zip_contents(target_name, '/sdcard/media/temp')
     adb('shell mv /sdcard/media/temp /sdcard/media/%d' % version)
 
-#clean
 def push_zip_contents(src_zip, remote_dir):
     zip = zipfile.ZipFile(src_zip)
     contents = zip.namelist()
@@ -169,7 +162,6 @@ def push_zip_contents(src_zip, remote_dir):
 
     zip.close()
 
-#clean
 def push_one_file(zip, file_in_zip_name, target_name):
     print("Pushing: %s" % file_in_zip_name)
 
