@@ -22,8 +22,11 @@
 		</Item>
 		<Item Name="support" Type="Folder">
 			<Item Name="button painter (SubVI).vi" Type="VI" URL="../button painter (SubVI).vi"/>
-			<Item Name="Progess bar.vi" Type="VI" URL="../support/Progess bar.vi"/>
+			<Item Name="Custom User Message.vi" Type="VI" URL="../support/Custom User Message.vi"/>
+			<Item Name="Progress bar.vi" Type="VI" URL="../support/Progress bar.vi"/>
 			<Item Name="settings handler.vi" Type="VI" URL="../settings handler.vi"/>
+			<Item Name="Two BTN Custom User Message.vi" Type="VI" URL="../support/Two BTN Custom User Message.vi"/>
+			<Item Name="Two BTN User Message XL.vi" Type="VI" URL="../support/Two BTN User Message XL.vi"/>
 			<Item Name="word finder.vi" Type="VI" URL="../support/word finder.vi"/>
 			<Item Name="words finder.vi" Type="VI" URL="../support/words finder.vi"/>
 		</Item>
@@ -31,11 +34,9 @@
 			<Item Name="cmd tester.vi" Type="VI" URL="../support/cmd tester.vi"/>
 			<Item Name="COM emulator.vi" Type="VI" URL="../support/COM emulator.vi"/>
 			<Item Name="settings tester.vi" Type="VI" URL="../settings/settings tester.vi"/>
+			<Item Name="User Message Tester.vi" Type="VI" URL="../User Message Tester.vi"/>
 		</Item>
 		<Item Name="GUI.vi" Type="VI" URL="../GUI.vi"/>
-		<Item Name="newGUI.vi" Type="VI" URL="../newGUI.vi"/>
-		<Item Name="Progress bar v2.vi" Type="VI" URL="../support/Progress bar v2.vi"/>
-		<Item Name="update media race condition test.vi" Type="VI" URL="../outset-medical/update media race condition test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -184,7 +185,6 @@
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Support Globals.vi" Type="VI" URL="../support/Support Globals.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
