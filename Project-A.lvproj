@@ -13,30 +13,37 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="controls" Type="Folder">
-			<Item Name="Data.ctl" Type="VI" URL="../Data.ctl"/>
-			<Item Name="Progress bar.ctl" Type="VI" URL="../support/Progress bar.ctl"/>
-			<Item Name="UI Data.ctl" Type="VI" URL="../UI Data.ctl"/>
+			<Item Name="Data.ctl" Type="VI" URL="../controls/Data.ctl"/>
+			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
 		<Item Name="globals" Type="Folder">
 			<Item Name="colors.vi" Type="VI" URL="../styles/colors.vi"/>
 		</Item>
+		<Item Name="settings" Type="Folder">
+			<Item Name="settings - copia.ini" Type="Document" URL="../settings/settings - copia.ini"/>
+			<Item Name="settings.ini" Type="Document" URL="../settings/settings.ini"/>
+		</Item>
 		<Item Name="support" Type="Folder">
-			<Item Name="button painter (SubVI).vi" Type="VI" URL="../button painter (SubVI).vi"/>
+			<Item Name="Application Version.vi" Type="VI" URL="../support/Application Version.vi"/>
+			<Item Name="button painter (SubVI).vi" Type="VI" URL="../support/button painter (SubVI).vi"/>
+			<Item Name="COM emulator.vi" Type="VI" URL="../support/COM emulator.vi"/>
+			<Item Name="console-log.rtf" Type="Document" URL="../support/console-log.rtf"/>
 			<Item Name="Custom User Message.vi" Type="VI" URL="../support/Custom User Message.vi"/>
 			<Item Name="Progress bar.vi" Type="VI" URL="../support/Progress bar.vi"/>
-			<Item Name="settings handler.vi" Type="VI" URL="../settings handler.vi"/>
+			<Item Name="Queue Progess bar.vi" Type="VI" URL="../support/Queue Progess bar.vi"/>
+			<Item Name="Queue Progress bar.ctl" Type="VI" URL="../support/Queue Progress bar.ctl"/>
+			<Item Name="settings handler.vi" Type="VI" URL="../support/settings handler.vi"/>
+			<Item Name="Support Globals.vi" Type="VI" URL="../support/Support Globals.vi"/>
 			<Item Name="Two BTN Custom User Message.vi" Type="VI" URL="../support/Two BTN Custom User Message.vi"/>
 			<Item Name="Two BTN User Message XL.vi" Type="VI" URL="../support/Two BTN User Message XL.vi"/>
 			<Item Name="word finder.vi" Type="VI" URL="../support/word finder.vi"/>
 			<Item Name="words finder.vi" Type="VI" URL="../support/words finder.vi"/>
 		</Item>
 		<Item Name="testers" Type="Folder">
-			<Item Name="cmd tester.vi" Type="VI" URL="../support/cmd tester.vi"/>
-			<Item Name="COM emulator.vi" Type="VI" URL="../support/COM emulator.vi"/>
-			<Item Name="settings tester.vi" Type="VI" URL="../settings/settings tester.vi"/>
-			<Item Name="User Message Tester.vi" Type="VI" URL="../User Message Tester.vi"/>
+			<Item Name="cmd tester.vi" Type="VI" URL="../testers/cmd tester.vi"/>
 		</Item>
 		<Item Name="GUI.vi" Type="VI" URL="../GUI.vi"/>
+		<Item Name="Tablo icon.ico" Type="Document" URL="../Tablo icon.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
@@ -44,6 +51,8 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="BuildErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/BuildErrorSource.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -70,19 +79,25 @@
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="FileVersionInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInfo.vi"/>
+				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="FixedFileInfo_Struct.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FixedFileInfo_Struct.ctl"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="GetFileVersionInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/GetFileVersionInfo.vi"/>
+				<Item Name="GetFileVersionInfoSize.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/GetFileVersionInfoSize.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/GetNamedRendezvousPrefix.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="MoveMemory.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/MoveMemory.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -181,6 +196,7 @@
 				<Item Name="ULx Write (Digital Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/ULx/Write.llb/ULx Write (Digital Wfm 1Chan NSamp).vi"/>
 				<Item Name="ULx Write.vi" Type="VI" URL="/&lt;vilib&gt;/ULx/Write.llb/ULx Write.vi"/>
 				<Item Name="ULx_LV.dll" Type="Document" URL="/&lt;vilib&gt;/ULx/ULx_LV.dll"/>
+				<Item Name="VerQueryValue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/VerQueryValue.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
@@ -188,7 +204,60 @@
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Progress bar.ctl" Type="VI" URL="../support/Progress bar.ctl"/>
+			<Item Name="version.dll" Type="Document" URL="version.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="GUI Assembly" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{C6936712-D61B-49FD-B161-B94177B857FF}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{1021F406-37D4-41A0-B22A-34F7D36F159F}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{DF87DC82-1C34-4332-A69A-34990DCBDF9C}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI Assembly</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/GUI Assembly</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{868AF791-765D-43EA-A1CF-C0F26040968A}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI Tablo.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/GUI Assembly/GUI Tablo.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/GUI Assembly/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Tablo icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{73CF41A7-B68D-4BC6-BCB7-24093C10251E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/settings/settings.ini</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Universidad Autónoma de Baja California</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI Assembly</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI Assembly</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Universidad Autónoma de Baja California</Property>
+				<Property Name="TgtF_productName" Type="Str">GUI Assembly</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{5E42B4BA-B57C-4BFD-AEAD-82912F10CF2C}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI Tablo.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
