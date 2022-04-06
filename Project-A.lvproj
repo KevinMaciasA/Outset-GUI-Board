@@ -29,6 +29,7 @@
 			<Item Name="COM emulator.vi" Type="VI" URL="../support/COM emulator.vi"/>
 			<Item Name="console-log.rtf" Type="Document" URL="../support/console-log.rtf"/>
 			<Item Name="Custom User Message.vi" Type="VI" URL="../support/Custom User Message.vi"/>
+			<Item Name="IP check.vi" Type="VI" URL="../../Project-B/support/IP check.vi"/>
 			<Item Name="Progress bar.vi" Type="VI" URL="../support/Progress bar.vi"/>
 			<Item Name="Queue Progess bar.vi" Type="VI" URL="../support/Queue Progess bar.vi"/>
 			<Item Name="Queue Progress bar.ctl" Type="VI" URL="../support/Queue Progress bar.ctl"/>
@@ -219,7 +220,6 @@
 				<Property Name="App_INI_GUID" Type="Str">{1021F406-37D4-41A0-B22A-34F7D36F159F}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{DF87DC82-1C34-4332-A69A-34990DCBDF9C}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI Assembly</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -229,7 +229,6 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{868AF791-765D-43EA-A1CF-C0F26040968A}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GUI Tablo.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/GUI Assembly/GUI Tablo.exe</Property>
@@ -239,7 +238,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/GUI Assembly/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Tablo icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{73CF41A7-B68D-4BC6-BCB7-24093C10251E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F94F222A-AAF1-40A1-AB0B-F4F332AAB5CC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI.vi</Property>
@@ -249,10 +248,10 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/settings/settings.ini</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">Universidad Autónoma de Baja California</Property>
+				<Property Name="TgtF_companyName" Type="Str">JVI Systems</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">GUI Assembly</Property>
 				<Property Name="TgtF_internalName" Type="Str">GUI Assembly</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Universidad Autónoma de Baja California</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 JVI Systems</Property>
 				<Property Name="TgtF_productName" Type="Str">GUI Assembly</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{5E42B4BA-B57C-4BFD-AEAD-82912F10CF2C}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">GUI Tablo.exe</Property>
