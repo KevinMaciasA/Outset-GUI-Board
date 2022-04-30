@@ -30,9 +30,11 @@
 			<Item Name="console-log.rtf" Type="Document" URL="../support/console-log.rtf"/>
 			<Item Name="Custom User Message.vi" Type="VI" URL="../support/Custom User Message.vi"/>
 			<Item Name="IP check.vi" Type="VI" URL="../../Project-B/support/IP check.vi"/>
+			<Item Name="Log File Results.vi" Type="VI" URL="../support/Log File Results.vi"/>
 			<Item Name="Progress bar.vi" Type="VI" URL="../support/Progress bar.vi"/>
 			<Item Name="Queue Progess bar.vi" Type="VI" URL="../support/Queue Progess bar.vi"/>
 			<Item Name="Queue Progress bar.ctl" Type="VI" URL="../support/Queue Progress bar.ctl"/>
+			<Item Name="Scan message.vi" Type="VI" URL="../support/Scan message.vi"/>
 			<Item Name="settings handler.vi" Type="VI" URL="../support/settings handler.vi"/>
 			<Item Name="Support Globals.vi" Type="VI" URL="../support/Support Globals.vi"/>
 			<Item Name="Two BTN Custom User Message.vi" Type="VI" URL="../support/Two BTN Custom User Message.vi"/>
@@ -98,6 +100,7 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="LVTextColorsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVTextColorsTypeDef.ctl"/>
 				<Item Name="MoveMemory.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/MoveMemory.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
@@ -202,6 +205,7 @@
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
+				<Item Name="VISA Set IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Set IO Buffer Mask.ctl"/>
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
