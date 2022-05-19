@@ -242,7 +242,6 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{868AF791-765D-43EA-A1CF-C0F26040968A}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GUI Tablo.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/GUI Assembly/GUI Tablo.exe</Property>
@@ -252,7 +251,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/GUI Assembly/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Tablo icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{043C8B52-B115-46B4-AD79-B5DADDE75A8A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F13144EC-9195-4F8E-8598-8C6C850F2817}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI.vi</Property>
