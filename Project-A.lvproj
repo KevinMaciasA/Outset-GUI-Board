@@ -38,8 +38,10 @@
 			<Item Name="Send to Tulip.vi" Type="VI" URL="../support/Send to Tulip.vi"/>
 			<Item Name="settings handler.vi" Type="VI" URL="../support/settings handler.vi"/>
 			<Item Name="Support Globals.vi" Type="VI" URL="../support/Support Globals.vi"/>
+			<Item Name="Tulip handler for Outset table.vi" Type="VI" URL="../support/Tulip handler for Outset table.vi"/>
 			<Item Name="Two BTN Custom User Message.vi" Type="VI" URL="../support/Two BTN Custom User Message.vi"/>
 			<Item Name="Two BTN User Message XL.vi" Type="VI" URL="../support/Two BTN User Message XL.vi"/>
+			<Item Name="Update their Tulip.vi" Type="VI" URL="../support/Update their Tulip.vi"/>
 			<Item Name="Util Convert to Base64.vi" Type="VI" URL="../support/Util Convert to Base64.vi"/>
 			<Item Name="word finder.vi" Type="VI" URL="../support/word finder.vi"/>
 			<Item Name="words finder.vi" Type="VI" URL="../support/words finder.vi"/>
